@@ -4,11 +4,8 @@ threadsafe: yes
 
 handlers:
 
-- url: /resources/bootstrap
- static_dir: resources/bootstrap
-
-- url: /static
- static_dir: static/css
+- url : /static
+  static_dir: static
 
 - url: .*
   script: main.app

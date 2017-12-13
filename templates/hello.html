@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
         <title>Hello App</title>
 </head>
 <body>
 <h1>Hello Your Application Is Deployed</h1>
-<form method="post" action="{{ url_for('done') }}">
+<form method="post" action="{{ url_for('hello') }}">
           <label for="name">Name:</label>
           <input type="text" name="name"><br />
           <label for="email">Email address:</label>
